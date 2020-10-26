@@ -9,6 +9,9 @@ tel: +3752965****5
 skype: gus_2958
 
 ### Summary
+I want to be a professional in programming.
+I have analytical thinking and the ability to learn quickly.
+
 ### Skills
 github.com
 
