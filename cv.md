@@ -1,11 +1,11 @@
 # CV
 
 ### Personal data
-Dzianis Pa*****i
+Dzianis Pa\*\*\*\*\*i
 
 ### Contact info
 e-mail: gus@dynama.by  
-tel: +3752965****5  
+tel: +375296\*\*\*\*\*5  
 skype: gus_2958
 
 ### Summary
