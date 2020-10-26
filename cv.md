@@ -19,5 +19,9 @@ github.com
 :-(
 
 ### Education
+https://code-basics.com/: HTML, CSS, JavaScript  
+https://www.sololearn.com/: HTML, CSS, Swift 4  
+https://learn.epam.com/: Computer Science Basic
+
 ### English
 Current level: A2, without practice.
