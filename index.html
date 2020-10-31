@@ -4,16 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap">
+  <link rel="stylesheet" href="css/style.css">
   <title>Dzianis Pa*****i CV</title>
 </head>
-<body style="max-width: 1024px;">
+<body>
   <main>
     <section>
       <h1>CV</h1>
       <article>
         <h3>Personal data</h3>
-        <p>Dzianis Pa*****i</p>
-        <img src="img/avatar.jpg" alt="Dzianis Pa*****i">
+        <figure>
+          <figcaption>Dzianis Pa*****i</figcaption>
+          <img src="img/avatar.jpg" alt="Dzianis Pa*****i">
+        </figure>
       </article>
       <article>
         <h3>Contact info</h3>
@@ -33,19 +37,16 @@
       <article>
         <h3>Code examples</h3>
         <p>JavaScript:</p>
-        <p>
-          <pre>
-            <code>
-  const encrypt = (text) => {
-      let encryptedText = '';
-      for (let i = 0; i < text.length; i += 2) {
-          const nextSymbol = text[i + 1] || '';
-          encryptedText = `${encryptedText}${nextSymbol}${text[i]}`;
-      }
-      return encryptedText;
-            </code>
-          </pre>
-        </p>
+        <pre>
+          <code>
+ 1  const encrypt = (text) => {
+ 2      let encryptedText = '';
+ 3      for (let i = 0; i < text.length; i += 2) {
+ 4          const nextSymbol = text[i + 1] || '';
+ 5          encryptedText = `${encryptedText}${nextSymbol}${text[i]}`;
+ 6      }
+ 7      return encryptedText;</code>
+        </pre>
       </article>
       <article>
         <h3>Experience</h3>
@@ -53,9 +54,9 @@
       </article>
       <article>
         <h3>Education</h3>
-        <p><a href="https://code-basics.com/">code-basics.com</a> HTML, CSS, JS</p>
-        <p><a href="https://www.sololearn.com/">sololearn.com</a> HTML, CSS, Swift 4</p>
-        <p><a href="https://learn.epam.com/">learn.epam.com</a> Computer Science Basic</p>
+        <p><a href="https://code-basics.com/" target="_blank">code-basics.com</a> HTML, CSS, JS</p>
+        <p><a href="https://www.sololearn.com/" target="_blank">sololearn.com</a> HTML, CSS, Swift 4</p>
+        <p><a href="https://learn.epam.com/" target="_blank">learn.epam.com</a> Computer Science Basic</p>
       </article>
       <article>
         <h3>English</h3>
