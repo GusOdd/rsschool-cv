@@ -49,7 +49,7 @@
             <code>
   1  const encrypt = (text) => {
   2      let encryptedText = '';
-  3      for (let i = 0; i < text.length; i += 2) {
+  3      for (let i = 0; i &lt; text.length; i += 2) {
   4          const nextSymbol = text[i + 1] || '';
   5          encryptedText = `${encryptedText}${nextSymbol}${text[i]}`;
   6      }
