@@ -1,0 +1,61 @@
+html {
+  font-family: Ubuntu, sans-serif;
+  color: #444444;
+  background-color: #eeeeee;
+}
+body {
+  max-width: 1024px;
+  margin: auto;
+}
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+h3 {
+  margin-bottom: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+p, figure {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  width: 480px;
+  background-color: #eaeaea;
+  border-left: 5px solid #FF8585;
+}
+.contacts-skills-education {
+  display: flex;
+  flex-direction: column;
+}
+.code-examples {
+  order: 99;
+}
+.p-js {
+  width: 555px;
+}
+a:link {
+  color: navy;
+  background-color: inherit;
+}
+a:visited {
+  color: gray;
+  background-color: inherit;
+}
+pre {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #e6e6e6;
+  border-left: 5px solid #FF8585;
+}
+@media screen and (max-width: 1024px) {
+  body {
+    max-width: 768px;
+    margin: auto;
+  }
+}
